@@ -8,13 +8,19 @@ Vue.use(uView);
 import axios from './utils/request/request.js'
 Vue.prototype.$axios = axios
 
+
+//引入vuex
+import store from '@/store/store.js'
+//把vuex定义成全局组件
+Vue.prototype.$store = store
 //-------------------------------------------------------------------
 Vue.config.productionTip = false
 
 App.mpType = 'app'
 
 const app = new Vue({
-    ...App
+    ...App,
+	store
 })
 app.$mount()
 // #endif

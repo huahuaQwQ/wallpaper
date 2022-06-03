@@ -6,14 +6,9 @@
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		
 		{
-			"path": "pages/home/home",
-			"style": {
-				"navigationBarTitleText": "home"
-			}
-		},{
 			"path": "pages/dynamic/dynamic",
 			"style": {
-				"navigationBarTitleText": "dynamic"
+				"navigationStyle":"custom"
 			}
 		},
 		{
@@ -43,10 +38,6 @@
 	],
 	
 	"tabBar":{
-		// "color": "#7A7E83",
-		// "selectedColor": "#3cc51f",
-		// "borderStyle": "black",
-		// "backgroundColor": "#ffffff",
 		"list":[
 			{
 				"pagePath":"pages/dynamic/dynamic"
@@ -70,15 +61,7 @@
 			}
 		]
 		
-	},
-	
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8",
-		"app-plus": {
-			"background": "#efeff4"
-		}
 	}
+	
+	
 }

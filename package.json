@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
-    "uview-ui": "^1.8.6"
+    "uview-ui": "^1.8.6",
+    "vuex": "^4.0.2"
   }
 }

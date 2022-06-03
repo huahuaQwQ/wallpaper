@@ -1,22 +1,22 @@
 <script>
 	export default {
 		onLaunch: function() {
-			console.warn('当前组件仅支持 uni_modules 目录结构 ，请升级 HBuilderX 到 3.1.0 版本以上！')
-			console.log('App Launch')
+			// console.warn('当前组件仅支持 uni_modules 目录结构 ，请升级 HBuilderX 到 3.1.0 版本以上！')
+			// console.log('App Launch')
 		},
 		onShow: function() {
-			console.log('App Show')
+			// console.log('App Show')
 		},
 		onHide: function() {
-			console.log('App Hide')
+			// console.log('App Hide')
 		}
 	}
 </script>
 
 <style lang="scss">
 	//引用iconfont
-	// @import url("/static/css/iconfont-weapp-icon.css");
-	// @import url("http://at.alicdn.com/t/font_3435339_ji46rwt1ah.css");
+	@import url("http://at.alicdn.com/t/font_3435339_b0p2vbhxly.css");
+	// @import url("@/iconfont/iconfont.css");
 	/* 注意要写在第一行，同时给style标签加入lang="scss"属性 */
 	//uviewUI
 	@import "uview-ui/index.scss";
@@ -26,9 +26,9 @@
 	/* #ifndef APP-NVUE */
 	@import '@/static/customicons.css';
 	// 设置整个项目的背景色
-	page {
-		background-color: #f5f5f5;
-	}
+	// page {
+	// 	background-color: #f5f5f5;
+	// }
 
 	/* #endif */
 	.example-info {
@@ -40,13 +40,7 @@
 	// iconfont 通用样式
 	
 	  // 
-	  @font-face {
-	    font-family: 'iconfont';  /* Project id 3435339 */
-	    src: 
-	         url('//at.alicdn.com/t/font_3435339_ji46rwt1ah.woff2?t=1653734204941') format('woff2'),
-	         url('//at.alicdn.com/t/font_3435339_ji46rwt1ah.woff?t=1653734204941') format('woff'),
-	         url('//at.alicdn.com/t/font_3435339_ji46rwt1ah.ttf?t=1653734204941') format('truetype');
-	  }
+	 
 	  .iconfont {
 	    font-family: "iconfont" !important;
 	    font-size: 16px;
